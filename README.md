@@ -1,4 +1,4 @@
-slip
-====
+duvet
+=====
 
-couch db client written with Google Closure.
+couch api client written with the Closure Library.
