@@ -1,4 +1,4 @@
-goog.provide('DUVET');
+goog.provide('Slip');
 
 goog.require('goog.net.Jsonp');
 goog.require('goog.Uri');
@@ -8,7 +8,7 @@ goog.require('goog.string.format');
  * @constructor
  * @param {string|goog.Uri} url Couch url. 
  **/
-DUVET = function (url) {
+Slip = function (url) {
     /**
      * /db/_view/myview?descending=true&limit=11&startkey=last&skip=1";
      * /db/_view/myview?descending=false&limit=11&startkey=first&skip=1";
