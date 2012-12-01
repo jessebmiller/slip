@@ -6,7 +6,10 @@ goog.require('goog.string.format');
 
 /**
  * @constructor
- * @param {string|goog.Uri} url Couch url. 
+ * @param {string|goog.Uri} url Couchdb url. 
+ *
+ * slip gives you access to your couchdb views. 
+ * 
  **/
 Slip = function (url) {
     /**
