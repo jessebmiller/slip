@@ -1,5 +1,4 @@
 goog.provide('Slip');
-
 goog.require('goog.net.Jsonp');
 goog.require('goog.Uri');
 goog.require('goog.string.format');
