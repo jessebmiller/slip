@@ -31,7 +31,9 @@ Slip = function (url) {
 	    var jsonp = {};
 	    
 	    viewUrl.setPath(goog.string.format(pathTmpl, db, ddoc, view));
-	    
+	    viewUrl.setQuery('limit=20');
+	    console.log(viewUrl);
+
 	    jsonp = new goog.net.Jsonp(viewUrl);
 	    
 	    return { 	
